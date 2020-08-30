@@ -1,3 +1,11 @@
+.advantage, .services, .personnel.list, .container-cust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -406,6 +414,10 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+img {
+  display: block;
 }
 
 .button {
@@ -875,14 +887,6 @@ p {
   margin: 0px;
 }
 
-.advantage {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .advantage .items {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
@@ -918,14 +922,6 @@ p {
 
 .advantage .icon-astronaut::before {
   background-image: url(../images/astronaut.svg);
-}
-
-.services {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .services .title {
@@ -964,20 +960,8 @@ p {
   bottom: 0;
 }
 
-img {
-  display: block;
-}
-
 .section.team {
   background: #f5f4fa;
-}
-
-.personnel.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .personnel.list .text {
@@ -1009,14 +993,6 @@ img {
   color: #212121;
   margin-top: 30px;
   margin-bottom: 10px;
-}
-
-.container-cust {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .container-cust .item {

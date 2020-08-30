@@ -16,6 +16,7 @@
   color: $title-text-color;
   background-color: $second-bgc;
   padding: 6px 22px;
+  font-weight: 500;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,8 +67,7 @@
   color: $title-text-color;
 }
 .card {
-  display: flex;
-  flex-wrap: wrap;
+  @extend %flex-container;
 }
 .card-list {
   width: calc((100% - 60px) / 3);
